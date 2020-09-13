@@ -3,7 +3,7 @@ import './movie.component.css';
 // TODO: use Movie Service
 const MovieComponent = {
     templateUrl: 'app/components/movie/movie.component.html',
-    controller: ['$q', MovieController],
+    controller: ['MovieService', MovieController],
     controllerAs: 'movieCtrl'
 }
 
