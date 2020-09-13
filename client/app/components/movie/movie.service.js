@@ -4,7 +4,8 @@ function MovieService($http, $q) {
     self.getAllMovies = getAllMovies;
 
     function getAllMovies() {
-        $http.get('/api/movies')
+        return $http.get('/api/movies')
+            .then((response) => response)
             .then(response => console.log(response))
             .catch($q.reject());
     }
