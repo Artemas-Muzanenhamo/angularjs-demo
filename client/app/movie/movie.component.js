@@ -1,5 +1,13 @@
+class MovieController {
+    message() {
+        return 'Movie Component Here';
+    }
+}
+
 const MovieComponent = {
-    template: '<h2>Movie Component Here</h2>'
+    templateUrl: 'app/movie/movie.html',
+    controller: MovieController,
+    controllerAs: 'movie'
 };
 
 export default MovieComponent;
