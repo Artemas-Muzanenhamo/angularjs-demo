@@ -41,7 +41,7 @@
     "miragejs": "^0.1.40",
     "ng-annotate-loader": "0.1.0",
     "node-libs-browser": "1.0.0",
-    "node-sass": "4.13.1",
+    "node-sass": "7.0.0",
     "phantomjs-prebuilt": "2.1.7",
     "raw-loader": "0.5.1",
     "run-sequence": "1.2.1",
